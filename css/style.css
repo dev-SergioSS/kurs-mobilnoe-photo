@@ -1828,7 +1828,7 @@ h2 {
   .program__item-wrap.open .program__item-body {
     position: relative;
     left: 0;
-    height: auto;
+    height: 200px;
     width: 100%;
     text-align: center;
     padding: 30px 0 100px;
