@@ -1972,8 +1972,8 @@ h2 {
 
   .item-kurs__name {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
     text-align: center;
     margin-right: 0;
     margin-bottom: 15px;
@@ -1981,8 +1981,8 @@ h2 {
 
   .item-kurs__type {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     text-align: center;
     margin-right: 0;
     margin-bottom: 15px;
@@ -1990,8 +1990,8 @@ h2 {
 
   .item-kurs__info-wrap {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     text-align: center;
     margin-right: 0;
     margin-bottom: 15px;
