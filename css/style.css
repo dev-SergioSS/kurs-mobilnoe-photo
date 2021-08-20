@@ -1026,9 +1026,6 @@ h2 {
 
 .item-body__text {
   line-height: 21px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
 }
 
 .item-body__button {
@@ -1045,6 +1042,8 @@ h2 {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
+  position: absolute;
+  bottom: 40px;
 }
 
 .program__item-wrap.open .program__item-head::after {
@@ -1819,24 +1818,20 @@ h2 {
     padding: 0 30px;
   }
 
-  .item-body__text {
-    margin-bottom: 20px;
-  }
-
   .item-body__button {
     padding: 14px 50px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    margin-bottom: 15px;
+    width: 262px;
+    left: calc(50% - 131px);
+    bottom: 30px;
   }
 
   .program__item-wrap.open .program__item-body {
-    position: static;
+    position: relative;
+    left: 0;
     height: auto;
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 0 100px;
     opacity: 1;
     margin-bottom: 15px;
   }
